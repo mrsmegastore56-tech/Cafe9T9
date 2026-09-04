@@ -1,0 +1,604 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <meta name="description"
+        content="ALPHA SHOP - Premium Home, Beauty and Personal Care Products">
+
+  <title>ALPHA SHOP | Premium Store</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- TOP BAR -->
+<div class="top-bar">
+  🚚 Fast Delivery Across Pakistan &nbsp; | &nbsp; 💳 Cash on Delivery Available
+</div>
+
+<!-- HEADER -->
+<header class="header">
+  <div class="container nav-container">
+
+    <a href="#" class="logo">
+      <span class="logo-mark">A</span>
+      <span>ALPHA <b>SHOP</b></span>
+    </a>
+
+    <nav class="nav">
+      <a href="#home">Home</a>
+      <a href="#products">Products</a>
+      <a href="#categories">Categories</a>
+      <a href="#reviews">Reviews</a>
+      <a href="#contact">Contact</a>
+    </nav>
+
+    <div class="nav-actions">
+      <button class="cart-btn" id="cartBtn">
+        🛒 Cart
+        <span id="cartCount">0</span>
+      </button>
+
+      <button class="menu-toggle" id="menuToggle">☰</button>
+    </div>
+  </div>
+
+  <div class="mobile-menu" id="mobileMenu">
+    <a href="#home">Home</a>
+    <a href="#products">Products</a>
+    <a href="#categories">Categories</a>
+    <a href="#reviews">Reviews</a>
+    <a href="#contact">Contact</a>
+  </div>
+</header>
+
+
+<!-- HERO -->
+<section class="hero" id="home">
+
+  <div class="hero-orb orb-one"></div>
+  <div class="hero-orb orb-two"></div>
+
+  <div class="container hero-grid">
+
+    <div class="hero-content">
+
+      <div class="eyebrow">
+        ✦ PREMIUM ONLINE STORE
+      </div>
+
+      <h1>
+        Quality Products.
+        <span>Better Living.</span>
+      </h1>
+
+      <p>
+        Discover carefully selected products for your home,
+        beauty and personal care needs.
+      </p>
+
+      <div class="hero-buttons">
+        <a href="#products" class="btn btn-primary">
+          Explore Products
+        </a>
+
+        <a href="#categories" class="btn btn-outline">
+          View Categories
+        </a>
+      </div>
+
+      <div class="hero-stats">
+        <div>
+          <strong>6+</strong>
+          <span>Products</span>
+        </div>
+
+        <div>
+          <strong>100%</strong>
+          <span>Quality Focus</span>
+        </div>
+
+        <div>
+          <strong>COD</strong>
+          <span>Available</span>
+        </div>
+      </div>
+
+    </div>
+
+
+    <!-- 3D HERO OBJECT -->
+    <div class="hero-visual">
+
+      <div class="floating-card card-back"></div>
+
+      <div class="floating-card card-main">
+
+        <div class="card-glow"></div>
+
+        <div class="mini-label">
+          ALPHA SHOP
+        </div>
+
+        <div class="hero-product-shape">
+          <div class="shape-ring"></div>
+          <div class="shape-center">A</div>
+        </div>
+
+        <div class="hero-card-bottom">
+          <strong>PREMIUM</strong>
+          <span>SHOPPING EXPERIENCE</span>
+        </div>
+
+      </div>
+
+      <div class="floating-tag tag-one">
+        ✦ QUALITY
+      </div>
+
+      <div class="floating-tag tag-two">
+        ⚡ FAST DELIVERY
+      </div>
+
+    </div>
+
+  </div>
+</section>
+
+
+<!-- FEATURES -->
+<section class="features">
+
+  <div class="container features-grid">
+
+    <div class="feature">
+      <div class="feature-icon">🚚</div>
+      <div>
+        <strong>Fast Delivery</strong>
+        <span>Across Pakistan</span>
+      </div>
+    </div>
+
+    <div class="feature">
+      <div class="feature-icon">💳</div>
+      <div>
+        <strong>Cash on Delivery</strong>
+        <span>Easy & convenient</span>
+      </div>
+    </div>
+
+    <div class="feature">
+      <div class="feature-icon">✓</div>
+      <div>
+        <strong>Quality Products</strong>
+        <span>Selected with care</span>
+      </div>
+    </div>
+
+    <div class="feature">
+      <div class="feature-icon">💬</div>
+      <div>
+        <strong>WhatsApp Support</strong>
+        <span>Quick assistance</span>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
+<!-- CATEGORIES -->
+<section class="categories-section" id="categories">
+
+  <div class="container">
+
+    <div class="section-heading">
+      <div class="section-label">SHOP BY CATEGORY</div>
+
+      <h2>
+        Find What You <span>Need</span>
+      </h2>
+
+      <p>
+        Explore our selected range of useful everyday products.
+      </p>
+    </div>
+
+
+    <div class="category-grid">
+
+      <button class="category-card active-category"
+              data-filter="All">
+
+        <span class="category-number">01</span>
+        <div class="category-icon">✨</div>
+        <h3>All Products</h3>
+        <p>View everything</p>
+
+      </button>
+
+
+      <button class="category-card"
+              data-filter="Home">
+
+        <span class="category-number">02</span>
+        <div class="category-icon">🏠</div>
+        <h3>Home</h3>
+        <p>Home essentials</p>
+
+      </button>
+
+
+      <button class="category-card"
+              data-filter="Beauty">
+
+        <span class="category-number">03</span>
+        <div class="category-icon">💅</div>
+        <h3>Beauty</h3>
+        <p>Beauty essentials</p>
+
+      </button>
+
+
+      <button class="category-card"
+              data-filter="Personal Care">
+
+        <span class="category-number">04</span>
+        <div class="category-icon">🧴</div>
+        <h3>Personal Care</h3>
+        <p>Daily care products</p>
+
+      </button>
+
+    </div>
+
+  </div>
+</section>
+
+
+<!-- PRODUCTS -->
+<section class="products-section" id="products">
+
+  <div class="container">
+
+    <div class="section-heading">
+
+      <div class="section-label">
+        OUR PRODUCTS
+      </div>
+
+      <h2>
+        Popular <span>Products</span>
+      </h2>
+
+      <p>
+        Premium products at affordable prices.
+      </p>
+
+    </div>
+
+
+    <div class="product-grid" id="productGrid"></div>
+
+  </div>
+</section>
+
+
+<!-- REVIEWS -->
+<section class="reviews-section" id="reviews">
+
+  <div class="container">
+
+    <div class="section-heading">
+
+      <div class="section-label">
+        CUSTOMER REVIEWS
+      </div>
+
+      <h2>
+        What Customers <span>Say</span>
+      </h2>
+
+    </div>
+
+
+    <div class="reviews-grid" id="reviewsGrid"></div>
+
+
+    <div class="review-form-box">
+
+      <h3>Leave Your Review</h3>
+
+      <form id="reviewForm">
+
+        <input
+          type="text"
+          id="reviewName"
+          placeholder="Your Name"
+          required
+        >
+
+        <select id="reviewRating" required>
+          <option value="">Rating</option>
+          <option value="5">★★★★★</option>
+          <option value="4">★★★★☆</option>
+          <option value="3">★★★☆☆</option>
+          <option value="2">★★☆☆☆</option>
+          <option value="1">★☆☆☆☆</option>
+        </select>
+
+        <textarea
+          id="reviewText"
+          placeholder="Write your review..."
+          required
+        ></textarea>
+
+        <button type="submit" class="btn btn-primary">
+          Submit Review
+        </button>
+
+      </form>
+
+    </div>
+
+  </div>
+</section>
+
+
+<!-- CTA -->
+<section class="cta-section">
+
+  <div class="container">
+
+    <div class="cta-box">
+
+      <div>
+        <div class="section-label">
+          NEED HELP?
+        </div>
+
+        <h2>
+          Order Easily Through
+          <span>WhatsApp</span>
+        </h2>
+
+        <p>
+          Select your products, checkout and confirm your order.
+        </p>
+      </div>
+
+      <a
+        href="https://wa.me/923465463058"
+        target="_blank"
+        class="whatsapp-large"
+      >
+        💬 WhatsApp Us
+      </a>
+
+    </div>
+
+  </div>
+</section>
+
+
+<!-- FOOTER -->
+<footer id="contact">
+
+  <div class="container footer-grid">
+
+    <div class="footer-brand">
+
+      <a href="#" class="logo">
+        <span class="logo-mark">A</span>
+        <span>ALPHA <b>SHOP</b></span>
+      </a>
+
+      <p>
+        Premium products for modern everyday living.
+      </p>
+
+      <a
+        href="https://wa.me/923465463058"
+        target="_blank"
+        class="footer-whatsapp"
+      >
+        WhatsApp: 03465463058
+      </a>
+
+    </div>
+
+
+    <div>
+      <h4>Quick Links</h4>
+      <a href="#home">Home</a>
+      <a href="#products">Products</a>
+      <a href="#categories">Categories</a>
+      <a href="#reviews">Reviews</a>
+    </div>
+
+
+    <div>
+      <h4>Categories</h4>
+      <a href="#products">Home</a>
+      <a href="#products">Beauty</a>
+      <a href="#products">Personal Care</a>
+    </div>
+
+
+    <div>
+      <h4>Contact</h4>
+      <p>📱 03465463058</p>
+      <p>🚚 Delivery Across Pakistan</p>
+      <p>💳 Cash on Delivery</p>
+    </div>
+
+  </div>
+
+
+  <div class="footer-bottom">
+    © 2026 ALPHA SHOP. All Rights Reserved.
+  </div>
+
+</footer>
+
+
+<!-- OVERLAY -->
+<div class="overlay" id="overlay"></div>
+
+
+<!-- CART DRAWER -->
+<aside class="cart-drawer" id="cartDrawer">
+
+  <div class="cart-header">
+
+    <div>
+      <h2>Your Cart</h2>
+      <span id="cartSubtitle">0 items</span>
+    </div>
+
+    <button id="closeCart">×</button>
+
+  </div>
+
+
+  <div class="cart-items" id="cartItems">
+
+    <div class="empty-cart">
+      🛒
+      <h3>Your cart is empty</h3>
+      <p>Add some products to continue.</p>
+    </div>
+
+  </div>
+
+
+  <div class="cart-footer">
+
+    <div class="cart-total">
+      <span>Total</span>
+      <strong id="cartTotal">Rs. 0</strong>
+    </div>
+
+    <button class="checkout-btn" id="checkoutBtn">
+      Proceed to Checkout
+    </button>
+
+    <a
+      href="https://wa.me/923465463058"
+      target="_blank"
+      class="cart-whatsapp"
+    >
+      💬 WhatsApp
+    </a>
+
+  </div>
+
+</aside>
+
+
+<!-- CHECKOUT MODAL -->
+<div class="modal" id="checkoutModal">
+
+  <div class="modal-box">
+
+    <button class="modal-close" id="closeCheckout">
+      ×
+    </button>
+
+    <h2>Complete Your Order</h2>
+
+    <p class="modal-subtitle">
+      Enter your details before confirming your order.
+    </p>
+
+
+    <form id="checkoutForm">
+
+      <input
+        type="text"
+        id="customerName"
+        placeholder="Full Name"
+        required
+      >
+
+      <input
+        type="tel"
+        id="customerPhone"
+        placeholder="Phone Number"
+        required
+      >
+
+      <textarea
+        id="customerAddress"
+        placeholder="Complete Delivery Address"
+        required
+      ></textarea>
+
+      <select id="paymentMethod" required>
+
+        <option value="">
+          Select Payment Method
+        </option>
+
+        <option value="Cash on Delivery">
+          Cash on Delivery
+        </option>
+
+      </select>
+
+
+      <div class="order-notice">
+        ✓ Please confirm that your name, phone number and
+        address are correct before placing the order.
+      </div>
+
+
+      <button type="submit" class="checkout-btn">
+        Confirm Order on WhatsApp
+      </button>
+
+    </form>
+
+  </div>
+
+</div>
+
+
+<!-- QUICK VIEW -->
+<div class="modal" id="quickModal">
+
+  <div class="modal-box quick-modal-box">
+
+    <button class="modal-close" id="closeQuick">
+      ×
+    </button>
+
+    <div id="quickContent"></div>
+
+  </div>
+
+</div>
+
+
+<!-- FLOATING WHATSAPP -->
+<a
+  href="https://wa.me/923465463058"
+  target="_blank"
+  class="whatsapp-float"
+  aria-label="WhatsApp"
+>
+  <span class="whatsapp-icon">💬</span>
+</a>
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
